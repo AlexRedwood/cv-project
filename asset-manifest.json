@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/AlexRedwood.github.io/cv-project/static/css/main.5f361e03.chunk.css",
+    "main.js": "/AlexRedwood.github.io/cv-project/static/js/main.434f050b.chunk.js",
+    "main.js.map": "/AlexRedwood.github.io/cv-project/static/js/main.434f050b.chunk.js.map",
+    "runtime-main.js": "/AlexRedwood.github.io/cv-project/static/js/runtime-main.59ea07b6.js",
+    "runtime-main.js.map": "/AlexRedwood.github.io/cv-project/static/js/runtime-main.59ea07b6.js.map",
+    "static/js/2.93fbed03.chunk.js": "/AlexRedwood.github.io/cv-project/static/js/2.93fbed03.chunk.js",
+    "static/js/2.93fbed03.chunk.js.map": "/AlexRedwood.github.io/cv-project/static/js/2.93fbed03.chunk.js.map",
+    "index.html": "/AlexRedwood.github.io/cv-project/index.html",
+    "precache-manifest.7bbe9584e5c555a9cc2143fd88fbaf2e.js": "/AlexRedwood.github.io/cv-project/precache-manifest.7bbe9584e5c555a9cc2143fd88fbaf2e.js",
+    "service-worker.js": "/AlexRedwood.github.io/cv-project/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/AlexRedwood.github.io/cv-project/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.93fbed03.chunk.js.LICENSE.txt": "/AlexRedwood.github.io/cv-project/static/js/2.93fbed03.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/AlexRedwood.github.io/cv-project/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59ea07b6.js",
+    "static/js/2.93fbed03.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.434f050b.chunk.js"
+  ]
+}

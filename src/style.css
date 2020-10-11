@@ -151,26 +151,22 @@ body {
 }
 
 #info {
-  padding: 40px;
-}
-
-.contact-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 30px;
 }
 
 .contact,
-.about {
+.about,
+.education,
+.experience {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   text-align: center;
   letter-spacing: 3px;
 }
 
 .basic-contacts {
   width: 100%;
-  margin-bottom: 30px;
 }
 
 .text-basic-info {
@@ -189,5 +185,28 @@ body {
   line-height: 1.5;
   display: block;
   width: 80%;
+  text-align: center;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.leftside {
+  border-right: 1px solid transparent;
+}
+
+@media (min-width: 576px) {
+  .leftside {
+    border-right: 1px solid #dbdbdb;
+  }
+}
+
+.education-text,
+.experience-text {
+  line-height: 1.5;
   text-align: center;
 }

@@ -4,7 +4,7 @@ class Name extends Component {
   render() {
     return (
       <div className="BasicInfo">
-        <h1> Name info here !</h1>
+        <h1 className="name">James Yoba</h1>
       </div>
     );
   }

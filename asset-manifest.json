@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AlexRedwood.github.io/cv-project/static/css/main.5f361e03.chunk.css",
-    "main.js": "/AlexRedwood.github.io/cv-project/static/js/main.434f050b.chunk.js",
-    "main.js.map": "/AlexRedwood.github.io/cv-project/static/js/main.434f050b.chunk.js.map",
-    "runtime-main.js": "/AlexRedwood.github.io/cv-project/static/js/runtime-main.59ea07b6.js",
-    "runtime-main.js.map": "/AlexRedwood.github.io/cv-project/static/js/runtime-main.59ea07b6.js.map",
-    "static/js/2.93fbed03.chunk.js": "/AlexRedwood.github.io/cv-project/static/js/2.93fbed03.chunk.js",
-    "static/js/2.93fbed03.chunk.js.map": "/AlexRedwood.github.io/cv-project/static/js/2.93fbed03.chunk.js.map",
-    "index.html": "/AlexRedwood.github.io/cv-project/index.html",
-    "precache-manifest.7bbe9584e5c555a9cc2143fd88fbaf2e.js": "/AlexRedwood.github.io/cv-project/precache-manifest.7bbe9584e5c555a9cc2143fd88fbaf2e.js",
-    "service-worker.js": "/AlexRedwood.github.io/cv-project/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/AlexRedwood.github.io/cv-project/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.93fbed03.chunk.js.LICENSE.txt": "/AlexRedwood.github.io/cv-project/static/js/2.93fbed03.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/AlexRedwood.github.io/cv-project/static/media/logo.5d5d9eef.svg"
+    "main.css": "/cv-project/static/css/main.a82136c6.chunk.css",
+    "main.js": "/cv-project/static/js/main.ee9f925d.chunk.js",
+    "main.js.map": "/cv-project/static/js/main.ee9f925d.chunk.js.map",
+    "runtime-main.js": "/cv-project/static/js/runtime-main.d91c792d.js",
+    "runtime-main.js.map": "/cv-project/static/js/runtime-main.d91c792d.js.map",
+    "static/js/2.4ce7d4c6.chunk.js": "/cv-project/static/js/2.4ce7d4c6.chunk.js",
+    "static/js/2.4ce7d4c6.chunk.js.map": "/cv-project/static/js/2.4ce7d4c6.chunk.js.map",
+    "index.html": "/cv-project/index.html",
+    "precache-manifest.80bc329601e978441200462def26527f.js": "/cv-project/precache-manifest.80bc329601e978441200462def26527f.js",
+    "service-worker.js": "/cv-project/service-worker.js",
+    "static/css/main.a82136c6.chunk.css.map": "/cv-project/static/css/main.a82136c6.chunk.css.map",
+    "static/js/2.4ce7d4c6.chunk.js.LICENSE.txt": "/cv-project/static/js/2.4ce7d4c6.chunk.js.LICENSE.txt",
+    "static/media/yoba.png": "/cv-project/static/media/yoba.c5ab4a93.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.59ea07b6.js",
-    "static/js/2.93fbed03.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.434f050b.chunk.js"
+    "static/js/runtime-main.d91c792d.js",
+    "static/js/2.4ce7d4c6.chunk.js",
+    "static/css/main.a82136c6.chunk.css",
+    "static/js/main.ee9f925d.chunk.js"
   ]
 }

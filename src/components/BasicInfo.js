@@ -11,10 +11,10 @@ class BasicInfo extends Component {
           <Photo />
         </div>
         <div className="contact-container col-12 my-4 my-sm-5">
-          <Name />
+          <Name info={this.props.info} />
         </div>
         <div className="about-container col-12 mt-3 mt-sm-2">
-          <Contact />
+          <Contact info={this.props.info} />
         </div>
       </div>
     );

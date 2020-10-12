@@ -2,9 +2,10 @@ import React, { Component } from "react";
 
 class Name extends Component {
   render() {
+    let { name } = this.props.info;
     return (
-      <div className="BasicInfo">
-        <h1 className="name">James Yoba</h1>
+      <div className="name-container">
+        <h1 className="name">{name}</h1>
       </div>
     );
   }

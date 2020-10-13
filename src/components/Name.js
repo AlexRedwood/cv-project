@@ -8,9 +8,10 @@ class Name extends Component {
 
     if (editMode) {
       element = (
-        <form className="name-form col-12">
+        <form onSubmit={this.props.handleSubmit} className="name-form col-12">
           <label htmlFor="name"></label>
           <input
+            spellCheck="false"
             onChange={this.props.handleChange}
             className="col-12"
             type="text"
@@ -20,26 +21,14 @@ class Name extends Component {
         </form>
       );
     } else {
-      element = <h1 className="name col-12">{name}</h1>;
+      element = (
+        <div id="name" className="name col-12">
+          {name}
+        </div>
+      );
     }
 
-    return (
-      <div className="name-container row">
-        {element}
-        {/* <h1 className="name col-12">{name}</h1>
-
-        <form className="name-form col-12">
-          <label htmlFor="name"></label>
-          <input
-            onChange={this.props.handleChange}
-            className="col-12"
-            type="text"
-            name="name"
-            value={name}
-          ></input>
-        </form> */}
-      </div>
-    );
+    return <div className="name-container row">{element}</div>;
   }
 }
 

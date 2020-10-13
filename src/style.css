@@ -148,6 +148,7 @@ body {
 .container {
   background-color: #fbf7f0;
   height: 100%;
+  position: relative;
 }
 
 #info {
@@ -217,10 +218,31 @@ body {
 
 input {
   background-color: #fbf7f0;
-  border: none;
-  cursor: pointer;
+  cursor: text;
   outline: none;
   color: #555555;
-  border: 2px solid #929292;
+  border: none;
+  border-bottom: 2px solid #929292;
   border-radius: 3px;
+}
+
+.edit-btn {
+  display: inline-block;
+  margin-left: auto;
+  position: absolute;
+  left: 90%;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #bdbdbd;
+  transition: color 0.2s;
+}
+
+.edit-btn:focus {
+  outline: none;
+}
+
+.edit-btn:hover {
+  color: #555555;
 }

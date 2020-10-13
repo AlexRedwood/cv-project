@@ -3,13 +3,14 @@ import BasicInfo from "./components/BasicInfo";
 import AdvancedInfo from "./components/AdvancedInfo";
 import style from "./style.css";
 import information from "./information.js";
+import editMode from "./editMode.js";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       info: information,
-      editMode: true,
+      editMode: false,
     };
   }
 
@@ -25,16 +26,37 @@ class App extends Component {
     });
   };
 
+  handleClick = (event) => {
+    const id = event.currentTarget.id;
+  };
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+  };
+
   render() {
     return (
       <div id="app" className="container">
         <div id="info" className="row">
           <div className="col-12 col-sm-5 leftside">
-            <BasicInfo handleChange={this.handleChange} data={this.state} />
+            <BasicInfo
+              handleSubmit={this.handleSubmit}
+              handleClick={this.handleClick}
+              handleChange={this.handleChange}
+              data={this.state}
+            />
           </div>
           <div className="col-12 col-sm-7">
-            <AdvancedInfo handleChange={this.handleChange} data={this.state} />
+            <AdvancedInfo
+              handleSubmit={this.handleSubmit}
+              handleClick={this.handleClick}
+              handleChange={this.handleChange}
+              data={this.state}
+            />
           </div>
+          <button type="button" className="edit-btn ">
+            <i className="fas fa-edit"></i>
+          </button>
         </div>
       </div>
     );

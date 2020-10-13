@@ -9,18 +9,31 @@ class App extends Component {
     super(props);
     this.state = {
       info: information,
+      editMode: true,
     };
   }
+
+  handleChange = (event) => {
+    const { name, value } = event.target;
+    this.setState((prevState) => {
+      return {
+        info: {
+          ...prevState.info,
+          [name]: value,
+        },
+      };
+    });
+  };
 
   render() {
     return (
       <div id="app" className="container">
         <div id="info" className="row">
           <div className="col-12 col-sm-5 leftside">
-            <BasicInfo info={this.state.info} />
+            <BasicInfo handleChange={this.handleChange} data={this.state} />
           </div>
           <div className="col-12 col-sm-7">
-            <AdvancedInfo info={this.state.info} />
+            <AdvancedInfo handleChange={this.handleChange} data={this.state} />
           </div>
         </div>
       </div>

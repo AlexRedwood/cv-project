@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Contact extends Component {
   render() {
-    let { phone, mail, adress } = this.props.info;
+    let { phone, mail, adress } = this.props.data.info;
     return (
       <div className="contact-container row">
         <h1 className="contact col-12 mb-1 mb-sm-3">Contact</h1>

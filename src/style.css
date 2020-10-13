@@ -188,11 +188,15 @@ body {
   text-align: center;
 }
 
-.name {
+.name,
+.name-form {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
-  font-weight: bold;
   text-align: center;
+}
+
+.name-form {
+  max-width: 100%;
 }
 
 .leftside {
@@ -209,4 +213,14 @@ body {
 .experience-text {
   line-height: 1.5;
   text-align: center;
+}
+
+input {
+  background-color: #fbf7f0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #555555;
+  border: 2px solid #929292;
+  border-radius: 3px;
 }

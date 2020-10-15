@@ -8,17 +8,20 @@ class Name extends Component {
 
     if (editMode) {
       element = (
-        <form onSubmit={this.props.handleSubmit} className="name-form col-12">
-          <label htmlFor="name"></label>
-          <input
-            spellCheck="false"
-            onChange={this.props.handleChange}
-            className="col-12"
-            type="text"
-            name="name"
-            value={name}
-          ></input>
-        </form>
+        <div id="name" className="name col-12">
+          <form onSubmit={this.props.handleSubmit} className="name-form col-12">
+            <label htmlFor="name"></label>
+            <input
+              spellCheck="false"
+              onChange={this.props.handleChange}
+              className="col-12"
+              type="text"
+              name="name"
+              value={name}
+              autoComplete="off"
+            ></input>
+          </form>
+        </div>
       );
     } else {
       element = (

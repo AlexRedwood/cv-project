@@ -37,7 +37,7 @@ class App extends Component {
   render() {
     return (
       <div id="app" className="container">
-        <div id="info" className="row">
+        <div id="info" className="row align-items-stretch">
           <div className="col-12 col-sm-5 leftside">
             <BasicInfo
               handleSubmit={this.handleSubmit}

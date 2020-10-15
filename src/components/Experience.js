@@ -5,7 +5,7 @@ class Experience extends Component {
     let { experience } = this.props.data.info;
     return (
       <div className="experience-container row mt-sm-2">
-        <h1 className="experience col-12 my-2 mb-sm-4">Experience</h1>
+        <h1 className="experience col-12 my-4 mb-sm-4">Experience</h1>
         <span className="experience-text col-12">{experience}</span>
       </div>
     );

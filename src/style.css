@@ -138,6 +138,10 @@ body > div,
   height: 100%;
 }
 
+html {
+  font-size: 0.9rem;
+}
+
 body {
   background-color: #d9e4dd;
   color: #555555;
@@ -192,7 +196,7 @@ body {
 .name,
 .name-form {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -202,11 +206,28 @@ body {
 
 .leftside {
   border-right: 1px solid transparent;
+  max-height: 450px;
+}
+#photo {
+  max-width: 200px;
 }
 
 @media (min-width: 576px) {
   .leftside {
     border-right: 1px solid #dbdbdb;
+    max-height: 100%;
+  }
+
+  #photo {
+    max-width: 500px;
+  }
+
+  .education-container {
+    margin-top: 0;
+  }
+
+  html {
+    font-size: 1rem;
   }
 }
 
@@ -245,4 +266,8 @@ input {
 
 .edit-btn:hover {
   color: #555555;
+}
+
+p {
+  line-height: 2;
 }

@@ -8,13 +8,14 @@ class Name extends Component {
 
     if (editMode) {
       element = (
-        <div id="name" className="name col-12">
+        <div className="name col-12">
           <form onSubmit={this.props.handleSubmit} className="name-form col-12">
             <label htmlFor="name"></label>
             <input
+              id="name"
               spellCheck="false"
               onChange={this.props.handleChange}
-              className="col-12"
+              className="col-10"
               type="text"
               name="name"
               value={name}

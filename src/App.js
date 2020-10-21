@@ -27,10 +27,21 @@ class App extends Component {
   };
 
   handleClick = (event) => {
-    const id = event.currentTarget.id;
+    this.setState((prevState) => {
+      return {
+        editMode: !prevState.editMode,
+      };
+    });
+    window.localStorage.setItem("info", JSON.stringify(this.state.info));
   };
 
   handleSubmit = (event) => {
+    this.setState((prevState) => {
+      return {
+        editMode: !prevState.editMode,
+      };
+    });
+    window.localStorage.setItem("info", JSON.stringify(this.state.info));
     event.preventDefault();
   };
 
@@ -38,23 +49,25 @@ class App extends Component {
     return (
       <div id="app" className="container">
         <div id="info" className="row align-items-stretch">
-          <div className="col-12 col-sm-5 leftside">
+          <div className="p-3 pr-5 col-12 col-sm-5 leftside">
             <BasicInfo
               handleSubmit={this.handleSubmit}
-              handleClick={this.handleClick}
               handleChange={this.handleChange}
               data={this.state}
             />
           </div>
-          <div className="col-12 col-sm-7">
+          <div className="p-3 col-12 col-sm-7">
             <AdvancedInfo
               handleSubmit={this.handleSubmit}
-              handleClick={this.handleClick}
               handleChange={this.handleChange}
               data={this.state}
             />
           </div>
-          <button type="button" className="edit-btn ">
+          <button
+            onClick={this.handleClick}
+            type="button"
+            className="edit-btn "
+          >
             <i className="fas fa-edit"></i>
           </button>
         </div>

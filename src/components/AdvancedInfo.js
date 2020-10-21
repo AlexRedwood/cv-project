@@ -10,18 +10,21 @@ class AdvancedInfo extends Component {
         <div className="col-12 mt-1 my-sm-5">
           <Education
             handleChange={this.props.handleChange}
+            handleSubmit={this.props.handleSubmit}
             data={this.props.data}
           />
         </div>
         <div className="col-12 mt-2 my-sm-3">
           <Experience
             handleChange={this.props.handleChange}
+            handleSubmit={this.props.handleSubmit}
             data={this.props.data}
           />
         </div>
         <div className="col-12 mt-2 my-sm-3">
           <About
             handleChange={this.props.handleChange}
+            handleSubmit={this.props.handleSubmit}
             data={this.props.data}
           />
         </div>

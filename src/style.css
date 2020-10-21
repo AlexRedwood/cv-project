@@ -198,6 +198,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   text-align: center;
+  word-break: break-all;
 }
 
 .name-form {
@@ -245,6 +246,13 @@ input {
   border: none;
   border-bottom: 2px solid #929292;
   border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-family: "Merriweather", serif;
+}
+
+#name {
+  font-size: 2rem;
 }
 
 .edit-btn {
@@ -270,4 +278,30 @@ input {
 
 p {
   line-height: 2;
+}
+
+i {
+  font-size: 0.9rem;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label > i {
+  width: 20px;
+}
+
+.contact-container {
+  padding-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+div {
+  word-break: break-all;
 }

@@ -13,7 +13,6 @@ class BasicInfo extends Component {
         <div className="contact-container col-12 my-4 my-sm-5">
           <Name
             handleSubmit={this.props.handleSubmit}
-            handleClick={this.props.handleClick}
             handleChange={this.props.handleChange}
             data={this.props.data}
           />
@@ -21,7 +20,6 @@ class BasicInfo extends Component {
         <div className="about-container col-12 mt-3 mt-sm-2">
           <Contact
             handleSubmit={this.props.handleSubmit}
-            handleClick={this.props.handleClick}
             handleChange={this.props.handleChange}
             data={this.props.data}
           />

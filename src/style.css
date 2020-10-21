@@ -303,5 +303,9 @@ label > i {
 }
 
 div {
-  word-break: break-all;
+  word-wrap: break-word;
+}
+
+#about {
+  word-wrap: break-word;
 }

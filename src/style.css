@@ -143,7 +143,7 @@ html {
 }
 
 body {
-  background-color: #d9e4dd;
+  background-color: #fbf7f0;
   color: #555555;
   font-family: "Merriweather", serif;
   letter-spacing: 1px;
@@ -214,6 +214,9 @@ body {
 }
 
 @media (min-width: 576px) {
+  body {
+    background-color: #d9e4dd;
+  }
   .leftside {
     border-right: 1px solid #dbdbdb;
     max-height: 100%;
